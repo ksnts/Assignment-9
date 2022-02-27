@@ -1,0 +1,37 @@
+{
+    "Intro": [
+        {
+            "Name": "John Kylle Santos",
+            "Position":"Hardware Systems Designer"
+        }
+    ],
+    "ProjectsHeader":[
+        {
+            "ProjectHeader": "PROJECTS/PUBLICATIONS",
+            "Project1": "Increasing Revenue",
+            "Project1D": ["- Published by Towards Data Science",
+            "- Analyzed user survey to recommend most profitable future revenue source","- Cleaned/visualized data using pandas/matplotlib libraries in Python"
+            ],
+            "Project2": "NYC School Data Cleaning & Analysis",
+            "Project2D": ["- Cleaned and combined several tables using pandas library in Python",
+                "- Used PDE and visualization to determine correlations for future study"
+            ],
+            "Project3": "Pandas Cleaning and Visualization",
+            "Project3D": ["- Cleaned data for analysis using pandas library in Python",
+            "- Used pandas and matplotlib to explore which cars hold the most value over time"
+        ]
+   
+        }
+    ],
+    "ExperienceHeader":[
+        {
+            "ExpHeader": "EXPERIENCE",
+            "Experience1": "Example Company / Example Position",
+            "ExperienceT": "8/2013-Present",
+            "ExperienceD": ["- Raised $350k in startup funds, recruited/organized launch team",
+                "- Coordinated branding and communication strategy for organization",
+                "- Led team of 80 volunteer and staff leaders"
+            ]
+        }
+    ]
+}
