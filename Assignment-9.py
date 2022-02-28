@@ -15,14 +15,17 @@ my_pdf.add_page()
 
 def introduction(intro):
     intro.set_font('Arial', 'B', 30)
-    intro.cell(40,1,""+str(resumeData["Intro"][0]["Name"]), ln=1)
+    intro.cell(20,20,""+str(resumeData["Intro"][0]["Name"]), ln=1)
     intro.set_font('Arial', '', 18)
-    intro.cell(20,20,""+str(resumeData["Intro"][0]["Position"]), ln=1)
+    intro.cell(20,1,""+str(resumeData["Intro"][0]["Position"]), ln=1)
+    intro.ln(4)
     
 
 def projectsdata(projects):
-    projects.set_font('Arial', '', 18)
+    projects.set_font('Arial', 'B', 18)
+    projects.set_text_color(0,200,200)
     projects.cell(20,20,""+str(resumeData["ProjectsHeader"][0]["ProjectHeader"]),ln=1)
+    projects.set_text_color(0,0,0)
     projects.set_font('Arial', 'B', 16)
     projects.cell(20,0,""+str(resumeData["ProjectsHeader"][0]["Project1"]), ln=1)
     projects.ln(4)
@@ -47,9 +50,11 @@ def projectsdata(projects):
     projects.ln(4)
 
 def experiencedata(experience):
-    experience.set_font('Arial', '', 18)
+    experience.set_font('Arial', 'B', 18)
+    experience.set_text_color(0,200,200)
     experience.cell(20,20,""+str(resumeData["ExperienceHeader"][0]["ExpHeader"]),ln=1)
     experience.set_font('Arial', 'B', 16)
+    experience.set_text_color(0,0,0)
     experience.cell(20,0,""+str(resumeData["ExperienceHeader"][0]["Experience1"]), ln=1)
     experience.ln(4)
     experience.set_font('Arial', '', 8)
@@ -69,9 +74,11 @@ def experiencedata(experience):
     experience.ln(4)
 
 def educationdata(education):
-    education.set_font('Arial', '', 18)
+    education.set_font('Arial', 'B', 18)
+    education.set_text_color(0,200,200)
     education.cell(20,20,""+str(resumeData["EducationHeader"][0]["EducHeader"]),ln=1)
     education.set_font('Arial', 'B', 16)
+    education.set_text_color(0,0,0)
     education.cell(20,0,""+str(resumeData["EducationHeader"][0]["Education1"]), ln=1)
     education.ln(4)
     education.set_font('Arial', '', 8)
