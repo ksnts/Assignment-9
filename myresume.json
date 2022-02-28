@@ -2,23 +2,23 @@
     "Intro": [
         {
             "Name": "John Kylle Santos",
-            "Position":"Hardware Systems Designer"
+            "Position":"Lead Software Engineer"
         }
     ],
     "ProjectsHeader":[
         {
             "ProjectHeader": "PROJECTS/PUBLICATIONS",
             "Project1": "Increasing Revenue",
-            "Project1D": ["- Published by Towards Data Science",
-            "- Analyzed user survey to recommend most profitable future revenue source","- Cleaned/visualized data using pandas/matplotlib libraries in Python"
+            "Project1D": ["- Provided each project with for a bank corporate website.",
+            "- Analyzed user survey to recommend most profitable future revenue source","- Communicated with stakeholders gathering through better development and processes"
             ],
-            "Project2": "NYC School Data Cleaning & Analysis",
+            "Project2": "Data Cleaning & Analysis",
             "Project2D": ["- Cleaned and combined several tables using pandas library in Python",
                 "- Used PDE and visualization to determine correlations for future study"
             ],
-            "Project3": "Pandas Cleaning and Visualization",
-            "Project3D": ["- Cleaned data for analysis using pandas library in Python",
-            "- Used pandas and matplotlib to explore which cars hold the most value over time"
+            "Project3": "Software Developer (consultant)",
+            "Project3D": ["- Identified and resolved issues in a level system boot for an insurance renewal spa for mobile application.",
+            "- Designed and implemented personal data visualization tools, developed with mysql and deployed."
         ]
    
         }
@@ -26,29 +26,39 @@
     "ExperienceHeader":[
         {
             "ExpHeader": "EXPERIENCE",
-            "Experience1": "Example Company / Example Position",
+            "Experience1": "ICC Company / Senior Software Engineer ",
             "Experience1T": "8/2013-Present",
             "Experience1D": ["- Raised $350k in startup funds, recruited/organized launch team",
                 "- Coordinated branding and communication strategy for organization",
                 "- Led team of 80 volunteer and staff leaders"
             ],
-            "Experience2": "Second Company / Second Position",
+            "Experience2": "Ubisoft / Assistant Visual Designer",
             "Experience2T": "2/2007-8/2013",
             "Experience2D": ["- Led team of over 100 full-time and contract staff",
                 "- Helped create branding and messaging for weekly content",
-                "- Created/directed musical elements at weekly events for up to 10,000 people"
+                "- Created/assisted visual elements at weekly events for up to 10,000 people"
             ]
         }
     ],
     "EducationHeader":[
         {
             "EducHeader": "EDUCATION",
-            "Education1": "Example University, Bachelor of Business Administration",
+            "Education1": "PUP, BSCPE Graduate",
             "Education1T": "2000-2004",
-            "Education1D": "- Major: Management, Minor: Statistics",
-            "Education2": "Example University, Master of Arts",
+            "Education1D": "- Major: Game development, Minor: Web design",
+            "Education2": "University of the East, STEM Graduate",
             "Education2T": "2013-2017",
-            "Education2D": "- Example profession"
+            "Education2D": "- Programming and Web design"
+        }
+    ],
+    "ContactHeader":[
+        {
+            "Address": "Chicago, IL",
+            "Telephone": "312-408-2253",
+            "Linkedin": "linkedin.com/in/ksnts",
+            "Email": "ksnts@gmail.com",
+            "Github": "github.com/ksnts"
+
         }
     ]
 }
