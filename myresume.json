@@ -27,11 +27,28 @@
         {
             "ExpHeader": "EXPERIENCE",
             "Experience1": "Example Company / Example Position",
-            "ExperienceT": "8/2013-Present",
-            "ExperienceD": ["- Raised $350k in startup funds, recruited/organized launch team",
+            "Experience1T": "8/2013-Present",
+            "Experience1D": ["- Raised $350k in startup funds, recruited/organized launch team",
                 "- Coordinated branding and communication strategy for organization",
                 "- Led team of 80 volunteer and staff leaders"
+            ],
+            "Experience2": "Second Company / Second Position",
+            "Experience2T": "2/2007-8/2013",
+            "Experience2D": ["- Led team of over 100 full-time and contract staff",
+                "- Helped create branding and messaging for weekly content",
+                "- Created/directed musical elements at weekly events for up to 10,000 people"
             ]
+        }
+    ],
+    "EducationHeader":[
+        {
+            "EducHeader": "EDUCATION",
+            "Education1": "Example University, Bachelor of Business Administration",
+            "Education1T": "2000-2004",
+            "Education1D": "- Major: Management, Minor: Statistics",
+            "Education2": "Example University, Master of Arts",
+            "Education2T": "2013-2017",
+            "Education2D": "- Example profession"
         }
     ]
 }
