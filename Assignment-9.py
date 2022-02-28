@@ -1,15 +1,15 @@
+#import FPDF
 from unicodedata import name
 from fpdf import FPDF
 import json
-
+#open Json file
 with open("myresume.json", "r") as resumeJson:
     resumeData = json.loads(resumeJson.read())
-
+#pdf settings
 my_pdf = FPDF('P', 'mm', 'Letter')
-
-
 my_pdf.add_page()
 
+#contact details
 def contactdata(contact):
     contact.set_font('Arial', '', 10)
     contact.cell(40,3,""+str(resumeData["ContactHeader"][0]["Address"]),align='L', ln=0)
@@ -21,7 +21,7 @@ def contactdata(contact):
     contact.cell(200,3, fill=True)
     contact.ln(1)
 
-
+#Header/intro
 def introduction(intro):
     intro.set_font('Arial', 'B', 30)
     intro.set_fill_color(224,224,224)
@@ -33,7 +33,7 @@ def introduction(intro):
     intro.ln(5)
     
     
-
+#project details
 def projectsdata(projects):
     projects.set_font('Arial', 'B', 20)
     projects.set_text_color(0,200,200)
@@ -65,6 +65,7 @@ def projectsdata(projects):
     projects.cell(200,3, fill=True)
     projects.ln(1)
 
+#experience details
 def experiencedata(experience):
     experience.set_font('Arial', 'B', 20)
     experience.set_text_color(0,200,200)
@@ -86,11 +87,13 @@ def experiencedata(experience):
     experience.cell(20,5,"    "+str(resumeData["ExperienceHeader"][0]["Experience2T"]), ln=1)
     experience.cell(20,5,"    "+str(resumeData["ExperienceHeader"][0]["Experience2D"][0]), ln=1)
     experience.cell(20,5,"    "+str(resumeData["ExperienceHeader"][0]["Experience2D"][1]), ln=1)
+    experience.cell(20,5,"    "+str(resumeData["ExperienceHeader"][0]["Experience2D"][2]), ln=1)
     experience.ln(3)
     experience.set_fill_color(224,224,224)
     experience.cell(200,3, fill=True)
     experience.ln(3)
 
+#education details
 def educationdata(education):
     education.set_font('Arial', 'B', 20)
     education.set_text_color(0,200,200)
@@ -113,22 +116,14 @@ def educationdata(education):
     education.set_fill_color(224,224,224)
     education.cell(200,3, fill=True)
 
-
-
-
-
-
-
-
-
-
+#call the functions
 introduction(my_pdf)
 contactdata(my_pdf)
 projectsdata(my_pdf)
 experiencedata(my_pdf)
 educationdata(my_pdf)
 
-
+#pdf output
 my_pdf.output("SANTOS_JOHN.pdf")
 
 
